@@ -12,9 +12,7 @@ basic_first_floor = Room(401, 'basic')
 sam = Guest('sam')
 
 
-reservation_two = Reservation(basic_room, sam, 20, 25)
+reservation_one = Reservation(basic_room, sam, 20, 25)
 
 
 # sam.reservations()
-# sam.rooms()
-# prem_room.reservations()
