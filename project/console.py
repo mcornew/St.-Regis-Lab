@@ -13,8 +13,7 @@ sam = Guest('sam')
 
 
 reservation_two = Reservation(basic_room, sam, 20, 25)
-res_one = Reservation(prem_room, bob, 10, 20)
-reservation_three = Reservation(prem_room, sam, 26, 30)
+
 
 # sam.reservations()
 # sam.rooms()
